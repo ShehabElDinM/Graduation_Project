@@ -81,6 +81,11 @@ python app.py
 cd frontend
 npm start
 ```
+3. Start the Engine:
+```bash
+cd backend
+python smtp_engine.py
+```
 
 The application will be available at `http://localhost:3000`
 
