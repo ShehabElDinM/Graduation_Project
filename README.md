@@ -73,6 +73,7 @@ pip install -r requirements.txt
 1. Start the Backend:
 ```bash
 cd backend
+venv\Scripts\activate
 python app.py
 ```
 
@@ -84,6 +85,7 @@ npm start
 3. Start the Engine:
 ```bash
 cd backend
+venv\Scripts\activate
 python smtp_engine.py
 ```
 
