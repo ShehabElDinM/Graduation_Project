@@ -1,0 +1,45 @@
+Message-ID: <c9c172df-c1e2-4569-8607-2df253fae766@something.com>
+Date: Thu, 24 Apr 2025 15:53:22 +0200
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: verycoolman@nothing.com
+From: cookalala <cookalala@something.com>
+Subject: RE: [Razor-users] What's wrong with the Razor servers now?
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+I'm still seeing this.  It reports to honor.cloudmark.com but checks
+against apt.cloudmark.com.  What is the sync delay between these boxes?
+
+-----Original Message-----
+From: Rose, Bobby
+Sent: Monday, August 05, 2002 2:05 PM
+To: ML-razor-users
+Subject: [Razor-users] What's wrong with the Razor servers now?
+
+
+I noticed a low count of razor'd spam messages. So after digging, if I
+razor-report a message the diags say that it was accepted but if I turn
+around and run a check on the exact same message that was reported, then
+it doesn't find the sig and as such isn't spam.
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf _______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+
+
+-------------------------------------------------------
+This sf.net email is sponsored by:ThinkGeek
+Welcome to geek heaven.
+http://thinkgeek.com/sf
+_______________________________________________
+Razor-users mailing list
+Razor-users@lists.sourceforge.net
+https://lists.sourceforge.net/lists/listinfo/razor-users
+

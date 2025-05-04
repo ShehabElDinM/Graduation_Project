@@ -1,0 +1,54 @@
+{
+  "T1566.001": {
+    "technique": "Spearphishing Attachment",
+    "tactic": "Initial Access",
+    "procedures": [
+      {
+        "apt_group": "APT28",
+        "patterns": [".docx", ".rar"]
+      },
+      {
+        "apt_group": "FIN7",
+        "patterns": [".doc", ".rtf"]
+      },
+      {
+        "apt_group": "Lazarus Group",
+        "patterns": [".docx"]
+      },
+      {
+        "apt_group": "APT37",
+        "patterns": [".hwp"]
+      },
+      {
+        "apt_group": "APT33",
+        "patterns": [".zip", ".rar", ".7z"]
+      }
+    ]
+  },
+  "T1566.002": {
+    "technique": "Spearphishing Link",
+    "tactic": "Initial Access",
+    "procedures": [
+      {
+        "apt_group": "APT29",
+        "patterns": ["https://secure-mail-login[.]com", "https://account-verification[.]net", "https://update-credentials[.]info"]
+      },
+      {
+        "apt_group": "APT3",
+        "patterns": ["https://webmail-verification[.]php?user=login", "https://secure-email[.]asia", "https://verify-portal[.]php"]
+      },
+      {
+        "apt_group": "APT32",
+        "patterns": ["https://drive-update-files[.]com", "https://cloud-storage-access[.]info", "https://secure-drive-link[.]com"]
+      },
+      {
+        "apt_group": "APT33",
+        "patterns": ["https://bit.ly/secure-access-update", "https://tinyurl.com/login-session", "https://bit.ly/hr-documents"]
+      },
+      {
+        "apt_group": "APT39",
+        "patterns": ["https://bank-verification-portal[.]com", "https://secure-banking-access[.]net", "https://account-identity-check[.]org"]
+      }
+    ]
+  }
+}

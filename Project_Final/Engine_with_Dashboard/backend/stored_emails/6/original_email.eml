@@ -1,0 +1,25 @@
+Message-ID: <5ccfd377-b5ff-4829-848a-c506b164d892@something.com>
+Date: Thu, 24 Apr 2025 15:52:39 +0200
+MIME-Version: 1.0
+User-Agent: Mozilla Thunderbird
+Content-Language: en-US
+To: verycoolman@nothing.com
+From: cookalala <cookalala@something.com>
+Subject: [Spambayes] understanding high false negative rate
+Content-Type: text/plain; charset=UTF-8; format=flowed
+Content-Transfer-Encoding: 8bit
+
+[Jeremy Hylton]
+ > Here's clarification of why I did:
+
+That's pretty much what I had guessed.  Thanks!  One more to try:
+
+ > First test results using tokenizer.Tokenizer.tokenize_headers()
+ > unmodified.
+ > ...
+ > Second test results using mboxtest.MyTokenizer.tokenize_headers().
+ > This uses all headers except Received, Data, and X-From_.
+ > ...
+
+Try the latter again, but call the base tokenize_headers() too.
+
